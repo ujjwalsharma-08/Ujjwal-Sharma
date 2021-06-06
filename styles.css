@@ -75,3 +75,35 @@ body{
 .footer{
     text-align: center;
 }
+.footer{
+    text-align: center;
+}
+
+.sales{
+    text-align: center;
+    margin: auto;
+    background-color: #6c3;
+    width: max-content;
+    border-radius: 10px;
+    
+}
+.sales ul{
+    list-style: none;
+}
+.learn {
+    text-align: center;
+}
+a:link, a:visited {
+    
+    background-color: #09f;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+}
+  
+a:hover, a:active {
+    background-color:#6c3;
+}
