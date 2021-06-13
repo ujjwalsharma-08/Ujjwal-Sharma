@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title>iPad</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body>
+      <script>
+        function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } 
+        else {
+           x.className = "topnav";
+        }
+        }
+        var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+          if (event.target == modal) {
+          modal.style.display = "none";
+          }
+        }
+
+      </script>
+      <div class="main">
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Home</a>           
+            <a href="#footer">Contact</a>
+            <a href="#about">About new iPad</a>
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Offers</button>
+            
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+      </div>    
+      <div class="about" id="about">    
+        <input type="radio" name="position"  />
+        <input type="radio" name="position" />
+        <input type="radio" name="position" checked />
+        <input type="radio" name="position" />
+        <input type="radio" name="position" />
+        <input type="radio" name="position" />
+
+        <main id="carousel">
+          <div class="item"><img src="Screenshot (44).png"></div>
+          <div class="item"><img src="Screenshot (45).png"></div>
+          <div class="item"><img src="Screenshot (47).png"></div>
+          <div class="item"><img src="Screenshot (48).png"></div>
+          <div class="item"><img src="Screenshot (50).png"></div>
+          <div class="item"><img src="Screenshot (51).png"></div>
+        </main>
+      </div>
+
+      <div class="contact" id="contact">
+        
+        
+      </div>
+      <div class="footer">
+        <a href="https://www.facebook.com/apple/"><img src="facebook.png"></a>
+        <a href="https://www.instagram.com/apple"><img src="instagram.png"></a>
+        <a href="https://twitter.com/apple/"><img src="twitter.png"></a>
+        <h3>Designed by Ujjwal</h3>
+      </div>
+
+
+
+    <div id="id01" class="modal">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <form class="modal-content" action="/action_page.php">
+        <div class="container">
+          <h1>Newsletter Subscription</h1>
+          <p>Subscribe to our newsletter to get eciting offers</p>
+          <hr>
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+
+          <p>By subscribing to our newsletter you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+          <div class="clearfix">
+            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            <button type="submit" class="signupbtn">Subscribe</button>
+          </div>
+        </div>
+      </form>
+    </div>       
+
+    </body>
+</html>
