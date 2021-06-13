@@ -59,7 +59,7 @@ body{
 
 
 .main{
-    background-image: url("ipadbackground.jpg");
+    background-image: url("https://user-images.githubusercontent.com/82819475/121815677-41bc8780-cc95-11eb-869a-4de0846d399a.jpg");
     background-image; height: 120vh; width:100%;
     overflow-y: visible;
     background-repeat: no-repeat;
@@ -188,7 +188,7 @@ main#carousel {
     align-items: center;
 }
 .contact{
-    background-image: url("multitasking.jpg");
+    background-image: url("https://user-images.githubusercontent.com/82819475/121815662-3701f280-cc95-11eb-8d8e-e8f127bda73c.jpg");
     background-image; height: 100vh; width:100%;
     overflow-y: visible;
     background-repeat: no-repeat;
