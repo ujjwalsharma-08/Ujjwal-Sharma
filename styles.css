@@ -63,6 +63,7 @@ body{
     background-image; height: 120vh; width:100%;
     overflow-y: visible;
     background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 
@@ -189,9 +190,10 @@ main#carousel {
 }
 .contact{
     background-image: url("https://user-images.githubusercontent.com/82819475/121815662-3701f280-cc95-11eb-8d8e-e8f127bda73c.jpg");
-    background-image; height: 100vh; width:100%;
+    background-image; height: 120vh; width:100%;
     overflow-y: visible;
     background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 .footer{
     background-color: #f2f2f2;
